@@ -12,9 +12,13 @@ contract View{
     // what if i want to calculate
 // View functions only read state variables.
 // They cannot modify the state; trying to do so will throw an error.
-    function calculateData() public view returns ( uint256 ) {
-        uint256 Result = Num1 + Num2;
-        return Result;
+    function calculateData() public view returns ( uint256 product, uint256 total ) {
+        // uint256 num1 = 20;
+        // uint256 num2 = 30;
+        
+        product = Num1 * Num2;
+        total = Num1 + Num2;
+        return (product, total);
     }
 
 }

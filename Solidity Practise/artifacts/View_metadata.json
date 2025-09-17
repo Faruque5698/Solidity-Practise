@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "calculateData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"View/View.sol": "View"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"View/View.sol": {
+			"keccak256": "0xcf43eec2ec05cc6addc0c44d0e6d911145d39a716f87254f5cd4763629b33c0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6baf5ea7724fa2e63f9cd3d3d21af7dfb2964e98679ea6ee2a71af957476736a",
+				"dweb:/ipfs/QmRXgaZf5tGnFoJs9hUAyxrkLW2A5sYWSvnBbMNQHrHkSN"
+			]
+		}
+	},
+	"version": 1
+}
